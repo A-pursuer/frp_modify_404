@@ -42,7 +42,7 @@ const (
             <li class="item" >Home</li>
             <li class="item">About</li>
             <li class="item">Contacts</li>
-            <li><img class="logo" src="https://wallpapercave.com/wp/wp6658439.png" alt=""></li>
+            <li><img class="logo" src="image2.jpg" alt=""></li>
             <input class="search" type="text" placeholder="search">
         </ul>
     </nav>
