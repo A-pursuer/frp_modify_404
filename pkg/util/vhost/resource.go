@@ -28,23 +28,30 @@ var NotFoundPagePath = ""
 
 const (
 	NotFound = `<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Not Found</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
-<body>
-<h1>The page you requested was not found.</h1>
-<p>Sorry, the page you are looking for is currently unavailable.<br/>
-Please try again later.</p>
-<p>The server is powered by <a href="https://github.com/fatedier/frp">frp</a>.</p>
-<p><em>Faithfully yours, frp.</em></p>
+<body class="body">
+    <nav class="nav">
+        <ul class="items">
+            <li class="item" >Home</li>
+            <li class="item">About</li>
+            <li class="item">Contacts</li>
+            <li><img class="logo" src="https://wallpapercave.com/wp/wp6658439.png" alt=""></li>
+            <input class="search" type="text" placeholder="search">
+        </ul>
+    </nav>
+    <section>
+        <div class="text">
+<h1>ERROR 404</h1>
+<p>Your trial has ended</p>
+        </div>
+    </section>
 </body>
 </html>
 `
